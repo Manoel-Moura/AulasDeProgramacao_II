@@ -20,7 +20,7 @@ public class Main {
 		o1.setCodigoSetor(321);
 		o1.setSalarioBase(2000);
 		o1.setImposto(10); // Operario recebe 10% do valor da Produção.
-		o1.setValorProdução(5000);
+		o1.setValorProducao(5000);
 		
 		v1.setNome("Alex");
 		v1.setEndereco("Centro");
@@ -28,15 +28,15 @@ public class Main {
 		v1.setCodigoSetor(656);
 		v1.setSalarioBase(2500);
 		v1.setValorVendas(2000);
-		v1.setImposto(5); // Vendedor recebe 12% do valor da Produção.
+		v1.setImposto(12); // Vendedor recebe 12% do valor da Produção.
 		
-		System.out.println(a1.toString());
+		System.out.println(a1);
 		
-		System.out.println("\n\n" + f1.toString());
+		System.out.println("\n\n" + f1);
 		
-		System.out.println("\n\n" + o1.toString());
+		System.out.println("\n\n" + o1);
 		
-		System.out.println("\n\n" + v1.toString());
+		System.out.println("\n\n" + v1);
 	}
 	
 	

@@ -1,7 +1,7 @@
 package aula_08_q3;
 
 public class Operario extends Empregado {
-	protected double valorProdução;
+	protected double valorProducao;
 	protected double comissao;
 	
 	
@@ -18,16 +18,16 @@ public class Operario extends Empregado {
 	}
 
 	
-	public double getValorProdução() {
-		return valorProdução;
+	public double getValorProducao() {
+		return valorProducao;
 	}
 
-	public void setValorProdução(double valorProdução) {
-		this.valorProdução = valorProdução;
+	public void setValorProducao(double valorProducao) {
+		this.valorProducao = valorProducao;
 	}
 
 	public double getComissao() {
-		return valorProdução * imposto;
+		return valorProducao * imposto;
 	}
 
 

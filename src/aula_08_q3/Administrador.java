@@ -10,15 +10,16 @@ public class Administrador extends Empregado {
 			   "\nEndereço: " + getEndereco() +
 			   "\nTelefone: " + getTelefone() +
 			   "\nCodigo Setor: " + getCodigoSetor()+
-			   "\nSalario: " + calculaSalario() + 
-			   "\nImposto: " + getImposto() * 100 + " %";
+			   "\nSalario base: " + getSalarioBase()+
+			   "\nAjuda: " + getAjudaDeCustos() +
+			   "\nSalario: " + calculaSalario() ;
 	}
 	
 	@Override
 	public double calculaSalario() {
-		return super.calculaSalario() + this.ajudaDeCustos ;
+		return getSalarioBase() + this.ajudaDeCustos ;
 	}
-
+	
 	public double getAjudaDeCustos() {
 		return ajudaDeCustos;
 	}
