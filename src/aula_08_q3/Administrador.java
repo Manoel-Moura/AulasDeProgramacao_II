@@ -6,7 +6,8 @@ public class Administrador extends Empregado {
 	
 	@Override
 	public String toString() {
-		return "Nome: " + getNome() +
+		return "\n\tAdministrador\n" +
+			"Nome: " + getNome() +
 			   "\nEndereço: " + getEndereco() +
 			   "\nTelefone: " + getTelefone() +
 			   "\nCodigo Setor: " + getCodigoSetor()+

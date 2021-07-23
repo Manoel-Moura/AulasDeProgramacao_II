@@ -7,14 +7,15 @@ public class Vendedor extends Empregado{
 
 	@Override
 	public String toString() {
-		return "Nome: " + getNome() +
+		
+		return "\n\tVendedor\n" +
+			   "Nome: " + getNome() +
 			   "\nEndereço: " + getEndereco() +
 			   "\nTelefone: " + getTelefone() +
 			   "\nCodigo Setor: " + getCodigoSetor()+
 			   "\nSalario base: " + getSalarioBase()+
 			   "\nComissão: " + getComissao() +
-			   "\nSalario: " + calculaSalario() + 
-			   "\nImposto: " + getImposto() * 100 + " %";
+			   "\nSalario: " + calculaSalario();
 	}
 	
 	public double getValorVendas() {
@@ -30,7 +31,7 @@ public class Vendedor extends Empregado{
 	}
 	@Override
 	public double calculaSalario() {
-		return this.salarioBase + getComissao();
+		return getSalarioBase() + getComissao();
 	}
 
 	

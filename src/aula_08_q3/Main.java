@@ -18,7 +18,7 @@ public class Main {
 		o1.setEndereco("Rua Santos Drumon");
 		o1.setTelefone("55 4567-1230");
 		o1.setCodigoSetor(321);
-		o1.setSalarioBase(2000);
+		o1.setSalarioBase(15000);
 		o1.setImposto(10); // Operario recebe 10% do valor da Produção.
 		o1.setValorProducao(5000);
 		

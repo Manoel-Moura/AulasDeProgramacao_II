@@ -7,14 +7,14 @@ public class Operario extends Empregado {
 	
 	@Override
 	public String toString() {
-		return "Nome: " + getNome() +
+		return "\n\tOperario\n" +
+				"Nome: " + getNome() +
 			   "\nEndereço: " + getEndereco() +
 			   "\nTelefone: " + getTelefone() +
 			   "\nCodigo Setor: " + getCodigoSetor()+
 			   "\nSalario base: " + getSalarioBase()+
 			   "\nComissão: " + getComissao() +
-			   "\nSalario: " + calculaSalario() + 
-			   "\nImposto: " + getImposto() * 100 + " %";
+			   "\nSalario: " + calculaSalario();
 	}
 
 	
