@@ -5,7 +5,7 @@ public class Empregado extends Pessoa{
 		private double salario;
 		private String matricula;
 		
-		protected double getSalario() {
+		public double getSalario() {
 			return this.salario;
 		}
 
@@ -13,15 +13,15 @@ public class Empregado extends Pessoa{
 			this.salario = salario;
 		}
 
-		protected String getMatricula() {
+		public String getMatricula() {
 			return this.matricula;
 		}
 
-		protected void setMatricula(String matricula) {
+		public void setMatricula(String matricula) {
 			this.matricula = matricula;
 		}
 		
-		protected double valorInss() {
+		public double valorInss() {
 			return this.salario * 11 / 100;
 		}
 		

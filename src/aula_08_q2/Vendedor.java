@@ -12,19 +12,19 @@ public class Vendedor extends Empregado {
 			   "\nQuantidade de vendas: " + getQntVendas();
 	}
 
-	protected double getValorVendas() {
+	public double getValorVendas() {
 		return this.valorVendas;
 	}
 
-	protected void setValorVendas(double valorVendas) {
+	public void setValorVendas(double valorVendas) {
 		this.valorVendas = valorVendas;
 	}
 
-	protected int getQntVendas() {
+	public int getQntVendas() {
 		return this.qntVendas;
 	}
 
-	protected void setQntVendas(int qntVendas) {
+	public void setQntVendas(int qntVendas) {
 		this.qntVendas = qntVendas;
 	}
 	

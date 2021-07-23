@@ -13,10 +13,10 @@ public class Gerente extends Empregado{
 			   "\nValor INSS: " + valorInss();
 	}
 	
-	protected String getNomeGerencia() {
+	public String getNomeGerencia() {
 		return this.nomeGerencia;
 	}
-	protected void setNomeGerencia(String nomeGerencia) {
+	public void setNomeGerencia(String nomeGerencia) {
 		this.nomeGerencia = nomeGerencia;
 	}
 	

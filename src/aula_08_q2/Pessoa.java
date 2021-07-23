@@ -5,27 +5,27 @@ public class Pessoa {
 	protected int idade;
 	protected String sexo;
 
-	protected String getNome() {
+	public String getNome() {
 		return this.nome;
 	}
 
-	protected void setNome(String nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
 
-	protected int getIdade() {
+	public int getIdade() {
 		return this.idade;
 	}
 
-	protected void setIdade(int idade) {
+	public void setIdade(int idade) {
 		this.idade = idade;
 	}
 
-	protected String getSexo() {
+	public String getSexo() {
 		return this.sexo;
 	}
 
-	protected void setSexo(String sexo) {
+	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
 }
